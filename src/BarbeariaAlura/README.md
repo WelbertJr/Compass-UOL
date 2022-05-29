@@ -20,7 +20,7 @@ Conhecemos novidades do CSS e como utilizar seus recursos de maneira simples.
   <li>Abaixo a apresentação da página de contatos e suas funcionalidades:</li></b>
 </div> &ensp;  
 <p align="center">
-   <img src="https://github.com/WelbertJr/Compass-UOL/blob/master/Docs/Contato.gif">
+   <img src="https://github.com/WelbertJr/Compass-UOL/blob/master/Docs/Contato.gif.gif">
 </p><br/>
 
 ## Tecnologias utilizadas
