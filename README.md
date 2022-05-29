@@ -8,11 +8,5 @@ Repositório que criei do programa de bolsas de React da Compass, que estou part
 <p align="justify">
  <h2>Certificados</h2></p> &ensp; 
 
-<div align="justify">
-  <img width="150" src="Docs/Carregando.jpg" alt="certificados">
-  <br> &ensp;
-
- 
- **[Certificados obtidos na trilha do programa](https://github.com/WelbertJr/Compass-UOL/blob/master/Docs/)**
-  </div>
-
+#### Clique aqui ⬇
+[![Certificados obtidos na trilha do programa](Docs/Carregando.jpg)](https://github.com/WelbertJr/Compass-UOL/blob/master/Docs/)
