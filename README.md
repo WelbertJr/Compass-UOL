@@ -6,6 +6,8 @@ Repositório que criei do programa de bolsas de React da Compass, que estou part
 <li><a href="/src/BarbeariaAlura">Barbearia Alura</a></li>
 <li><a href="/src/FlexBlog">FlexBlog</a></li>
 <li><a href="/src/reactFormChallenge"> React Form</a></li>
+<li><a href="/src/Lista de presença">Lista de presença</a></li>
+<li><a href="/src//Compass Logon">Compass Logon</a></li>
 </ol>
 <p align="justify">
  <h2>Certificados</h2></p> &ensp; 
