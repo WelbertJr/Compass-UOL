@@ -1,4 +1,4 @@
-# WebsiteSquadBlue
+# WebsiteSquadRed
 ## Desafio
 <p align="justify">
 Eu, como um usuário, quero 3 páginas personalizadas para coletar dados através de formulários e lançar os dados coletados em uma 4ª página. O projeto deve ser feito utilizando o Adobe Experience Manager.
@@ -156,7 +156,7 @@ Eu, como um usuário, quero 3 páginas personalizadas para coletar dados atravé
 </p><br/>
 
 <p align="center">
-<img src="">
+<img src="./testes.png">
 </p><br/>
 
 ## Tecnologias utilizadas:
