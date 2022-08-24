@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: React App - All
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.reactapp:reactapp.all:1.0.0-SNAPSHOT
+Content-Package-Description: All content package for React App
+Content-Package-Roots: /apps/reactapp-packages,/apps/reactapp-vendor-pac
+ kages
+

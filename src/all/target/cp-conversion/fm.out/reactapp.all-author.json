@@ -1,0 +1,46 @@
+{
+  "id":"com.reactapp:reactapp.all:slingosgifeature:author:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.acs.commons.wcm.impl.QrCodeServlet":    {
+      ":configurator:content-package-origins":"com.reactapp:reactapp.all:1.0.0-SNAPSHOT|adobe/consulting:acs-aem-commons-ui.apps:5.2.0"
+    },
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~reactapp":    {
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/reactapp.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:content-package-origins":"com.reactapp:reactapp.all:1.0.0-SNAPSHOT|com.reactapp:reactapp.ui.config:1.0.0-SNAPSHOT"
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~reactapp":    {
+      "mobile.resourceTypes":[
+        "reactapp/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:content-package-origins":"com.reactapp:reactapp.all:1.0.0-SNAPSHOT|com.reactapp:reactapp.ui.config:1.0.0-SNAPSHOT"
+    }
+  },
+  "repoinit:TEXT|true":[
+    "# these users and ACLs are only necessary on author",
+    "create service user acs-commons-package-replication-status-event-service with path system/acs-commons",
+    "set ACL for acs-commons-package-replication-status-event-service",
+    "    allow jcr:read,rep:write,jcr:readAccessControl,jcr:modifyAccessControl on /",
+    "end"
+  ]
+}
